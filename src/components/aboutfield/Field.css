@@ -1,7 +1,7 @@
 .field{
     display: flex;
     flex-direction: column;
-    border: .15vw rgb(66, 64, 64) solid;
+    border: .1vw solid grey;
     width: 80%;
     margin: auto;
     border-radius:2vw ;

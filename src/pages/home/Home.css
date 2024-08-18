@@ -19,16 +19,16 @@
         width: 80%;
         margin: 3vw auto;
         display: flex;
-        justify-content: center;
-        gap: 1vw;
+        justify-content: space-evenly;
+        gap: 3vw;
         align-items: center;
 
         .image{
             height: 28vw;
             width:28vw;
-            background-image: url('../../assests/architecture-7448639.jpg');
+            background-image: url('../../assests/Dp1.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: 60%;
             border-radius: 50%;
         }
         .fields{
@@ -36,26 +36,33 @@
             width:28vw;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
-            h1{
-                font-size: 1.2vw ;
-                color: rgb(87, 83, 83);
-                margin: 0;
-            }
-            h2{
-                font-size: 3.5vw ;
-                font-weight:700 ;
-                margin: 0;
-
-
-            }
-            h3{
-                font-size: 1.6vw ;
-                font-weight: 600;
-                margin: 0;
-                color: rgb(87, 83, 83);
-
+            gap: 3vw;
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h1{
+                    font-size: 1.2vw ;
+                    font-weight: 500;
+                    color: gray;
+                    margin-bottom: 1vw;
+                }
+                h2{
+                    font-size: 4vw ;
+                    font-weight:700 ;
+                    margin: 0;
+    
+    
+                }
+                h3{
+                    font-size: 1.4vw ;
+                    font-weight: 600;
+                    margin: 0;
+                    color: black;
+    
+                }
             }
             .buttongrp{
                 display: flex;

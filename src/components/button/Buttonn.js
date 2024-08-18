@@ -2,9 +2,11 @@ import React from 'react'
 import './button.css'
 const Buttonn = (props) => {
   return (
-    <div className='button'>
+    <a href={props.link} target="_blank">
+      <div className='button'>
       {props.text}
-    </div>
+      </div>
+    </a>
   )
 }
 

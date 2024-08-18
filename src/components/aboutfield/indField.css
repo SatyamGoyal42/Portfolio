@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 90%;
     margin:auto;
-    color: rgb(66, 64, 64);
+    color: rgb(0, 0, 0);
     margin-bottom: .8vw;
     .header{
         display: flex;
@@ -17,5 +17,6 @@
     }
     .desc{
         font-size: 1vw;
+        color: rgb(57, 57, 57);
     }
 }
