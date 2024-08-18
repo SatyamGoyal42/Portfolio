@@ -15,7 +15,7 @@ const Projects = () => {
       <div className='Cards'>
         <Card n = {2} name="Mail App" imageUrl={img2} gh="https://github.com/Rijult33/mern-mail-app" ld="https://mern-mail-ea4330up8-rijult33s-projects.vercel.app/login"></Card>
         <Card n = {1}name="Cash Flow Minimizer" imageUrl={img1} gh = "https://github.com/SatyamGoyal42/Cash-flow-minimizer"></Card>
-        <Card n = {2}name="My Portfolio" imageUrl={img3} gh="https://github.com/SatyamGoyal42/Portfolio"></Card>
+        <Card n = {2}name="My Portfolio" imageUrl={img3} gh="https://github.com/SatyamGoyal42/Portfolio" ld="https://portfolio-nine-ochre-41.vercel.app/#about"></Card>
 
       </div>
         
