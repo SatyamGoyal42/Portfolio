@@ -31,9 +31,14 @@
                margin: 2vw auto;
                color:  rgb(0, 0, 0);
             }
+            transition: all 300ms ease-in-out;
             
 
         }
+        .card1:hover,.card2:hover,.card3:hover{
+            transform: scale(1.05);
+        }
     }
+    
         
 }

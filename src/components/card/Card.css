@@ -9,6 +9,10 @@
     border-radius: 1.5vw;
     margin: auto;
     padding: 2vw;
+    transition: all 200ms ease-in-out;
+}
+.Card:hover{
+    transform: scale(1.05);
 }
 .InsideCard{
     height: 27vw;
