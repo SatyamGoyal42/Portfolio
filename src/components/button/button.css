@@ -16,7 +16,9 @@ a{
     }
     .button:hover{
         cursor: pointer;
-        background-color: rgb(55, 52, 52);
+        background-color: rgb(99, 99, 99);
+        border: .15vw solid rgb(99, 99, 99) ;
+
         color: white;
     }
 }
