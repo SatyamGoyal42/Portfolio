@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    width : 40%;
+    font-size: 1.6vw;
+    font-weight: 400;
+    justify-content: space-between;
+    .item1:hover{
+
+    }
+    .item2:hover{
+        
+    }
+    .item3:hover{
+        
+    }
+    .item4:hover{
+        
+    }
+
+}
